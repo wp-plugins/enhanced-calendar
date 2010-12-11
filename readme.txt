@@ -153,3 +153,7 @@ padding: 0.3em 0em;
 == Upgrade Notice ==
 
 No specical upgrade instructions at this time.
+
+== Screenshots ==
+
+None at this time.
