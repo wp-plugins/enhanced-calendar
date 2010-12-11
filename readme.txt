@@ -11,8 +11,7 @@ Enhancements to Kieran O'Shea's Calendar plugin to allow multiple uses, theme st
 == Description ==
 
 <p>
-Enhanced-Calendar (<a href="http://michaelwalsh.org/blog/2010/12/08/need-to-rename-calendar-plus/">
-previously known as Calendar-Plus</a>) enhances <a href="http://wordpress.org/extend/plugins/calendar/">
+Enhanced-Calendar (<a href="http://michaelwalsh.org/blog/2010/12/08/need-to-rename-calendar-plus/">previously known as Calendar-Plus</a>) enhances <a href="http://wordpress.org/extend/plugins/calendar/">
 Kieran O'Shea's Calendar plugin</a> by removing several limitations and adding the ability to instantiate
 the calendar in a sidebar widget.
 </p>
@@ -45,9 +44,9 @@ output:
 
 [calendar weekday=3 descriptions=&#39;off&#39;]
 
-[calendar dateswitcher=’off’]
+[calendar dateswitcher=&#39;off&#39;]
 
-[calendar weekday=3 dateswitcher=’off’ descriptions=’off’]
+[calendar weekday=3 dateswitcher=&#39;off&#39; descriptions=&#39;off&#39;]
 </pre>
 
 == Styling ==
@@ -133,7 +132,7 @@ padding: 0.3em 0em;
 }
 </code>
 
-== Change Log ==
+== Changelog ==
 
 = 0.0.1 =
 * First release as "Calendar-Plus".
