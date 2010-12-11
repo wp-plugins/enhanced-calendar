@@ -52,7 +52,7 @@ output:
 == Styling ==
 
 Enhanced-Calendar moves the CSS styling from a plugin setting which is stored in the database to a separate CSS
-file which makes it easy to style Calendar with your own WordPress theme.  The default CSS file shipped with
+file which makes it easy to style Calendar with your own WordPress theme.  The default CSS file shipped with
 Enhanced-Calendar is the same as the default settings from the Calendar plugin.
 
 You can see Enhanced-Calendar in action on the <a href="http://www.caslshocks.org">CASL Shocks web site</a>.
