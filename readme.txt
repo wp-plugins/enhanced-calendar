@@ -27,7 +27,7 @@ by using the <a href="http://wordpress.org/extend/plugins/sidebar-shortcodes/">S
 
 <p>
 To install Enhanced-Calendar, download it, unzip it, upload it to your
-WordPress installation and activate like a standard plugin.
+WordPress installation and activate like a standard plugin.
 </p>
 
 1. Upload `enhanced-calendar` to the `/wp-content/plugins/` directory
@@ -36,14 +36,14 @@ WordPress installation and activate like a standard plugin.
 == Usage ==
 
 Usage of Enhanced-Calendar is primarily driven by shortcodes.  Enhanced-Calendar does not change the way
-in which Calendar adds and manages calendar events.  The [calendar] shortcode has several arguments.  You
+in which Calendar adds and manages calendar events.  The [calendar] shortcode has several arguments.  You
 could create a post that contains the following content to see how the various options affect the Calendar
 output:
 <pre style="padding-left: 30px;">[calendar]
 
 [calendar weekday=1]
 
-[calendar weekday=3 descriptions=\’off\’]
+[calendar weekday=3 descriptions=&#39;off&#39;]
 
 [calendar dateswitcher=’off’]
 
@@ -144,3 +144,13 @@ padding: 0.3em 0em;
 = 0.0.3 =
 * Renamed Enhanced-Calendar
 * Added to WordPress plugin repository
+
+= 0.0.4 =
+* ReadMe.txt content and cleanup.
+
+= 0.0.5 =
+* More ReadMe.txt content and cleanup.
+
+== Upgrade Notice ==
+
+No specical upgrade instructions at this time.
