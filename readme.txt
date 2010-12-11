@@ -3,8 +3,8 @@ Contributors: mpwalsh8
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESP5FSYD3GXRJ
 Tags: calendar
 Requires at least: 2.9
-Tested up to: 3.0
-Stable tag: 0.0.3
+Tested up to: 3.0.3
+Stable tag: 0.0.4
 
 Enhancements to Kieran O'Shea's Calendar plugin to allow multiple uses, theme styling, and more.
 

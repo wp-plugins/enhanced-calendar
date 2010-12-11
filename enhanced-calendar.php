@@ -1,12 +1,12 @@
 <?php
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 /*
- * Plugin Name: Calendar-Plus
- * Plugin URI: http://www.michaelwalsh.org/calendarplus/
+ * Plugin Name: Enhanced-Calendar
+ * Plugin URI:  http://michaelwalsh.org/wordpress-stuff/wordpress-plugins/enhanced-calendar
  * Description: This plugin enhances <a href="http://www.kieranoshea.com">Kieran O'Shea's</a> <a href="http://wordpress.org/extend/plugins/calendar/">Calendar plugin</a>.
  * Author: Mike Walsh
  * Author URI: http://www.michaelwalsh.org
- * Version: 0.0.3
+ * Version: 0.0.4
  */
 
 /*
