@@ -10,30 +10,28 @@ Enhancements to Kieran O'Shea's Calendar plugin to allow multiple uses, theme st
 
 == Description ==
 
+<p>
 Enhanced-Calendar (<a href="http://michaelwalsh.org/blog/2010/12/08/need-to-rename-calendar-plus/">
 previously known as Calendar-Plus</a>) enhances <a href="http://wordpress.org/extend/plugins/calendar/">
 Kieran O'Shea's Calendar plugin</a> by removing several limitations and adding the ability to instantiate
-the calendar in a sidebar widget.  Enhanced-Calendar requires the original
+the calendar in a sidebar widget.
+</p>
+<p>
+Enhanced-Calendar requires the original
 <a href="http://wordpress.org/extend/plugins/calendar/">Calendar plugin</a> to be installed and activated.
 Enhanced-Calendar introduces a proper shortcode which can also be used to display the calendar in a sidebar
 by using the <a href="http://wordpress.org/extend/plugins/sidebar-shortcodes/">Sidebar Shortcode plugin</a>.
+</p>
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
-
-
-To install Enhanced-Calendar, download it, unzip it, upload it to your WordPress installation and activate
-like a standard plugin.
+<p>
+To install Enhanced-Calendar, download it, unzip it, upload it to your
+WordPress installation and activate like a standard plugin.
+</p>
 
 1. Upload `enhanced-calendar` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Activate Enhanced-Calendar through the 'Plugins' menu in WordPress
 
 == Usage ==
 
@@ -45,7 +43,7 @@ output:
 
 [calendar weekday=1]
 
-[calendar weekday=3 descriptions=’off’]
+[calendar weekday=3 descriptions=\’off\’]
 
 [calendar dateswitcher=’off’]
 
