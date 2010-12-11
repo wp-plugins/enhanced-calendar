@@ -1,0 +1,181 @@
+/* vim: set expandtab tabstop=4 shiftwidth=4: */
+/*
+ *  CSS extracted from original Calendar plugin so
+ *  it can be added with enqueye_style() and thus
+ *  styled easier with a theme.
+ *
+ */
+
+.calnk a:hover {
+    background-position:0 0;
+    text-decoration:none;  
+    color:#000000;
+    border-bottom:1px dotted #000000;
+}
+
+.calnk a:visited {
+    text-decoration:none;
+    color:#000000;
+    border-bottom:1px dotted #000000;
+}
+.calnk a {
+   text-decoration:none; 
+   color:#000000; 
+   border-bottom:1px dotted #000000;
+}
+
+.calnk a span { 
+   display:none; 
+}
+
+.calnk a:hover span {
+   color:#333333; 
+   background:#F6F79B; 
+   display:block;
+   position:absolute; 
+   margin-top:1px; 
+   padding:5px; 
+   width:150px; 
+   z-index:100;
+}
+
+.calendar-table {
+   border:none;
+   width:100%;
+}
+
+.calendar-heading {
+   height:25px;
+   text-align:center;
+   border:1px solid #D6DED5;
+   background-color:#E4EBE3;
+}
+
+.calendar-next {
+   width:25%;
+   text-align:center;
+}
+
+.calendar-prev {
+   width:25%;
+   text-align:center;
+}
+
+.calendar-month {
+   width:50%;
+   text-align:center;
+   font-weight:bold;
+}
+
+.normal-day-heading {
+   text-align:center;
+   width:25px;
+   height:25px;
+   font-size:0.8em;
+   border:1px solid #DFE6DE;
+   background-color:#EBF2EA;
+}
+
+.weekend-heading {
+   text-align:center;
+   width:25px;
+   height:25px;
+   font-size:0.8em;
+   border:1px solid #DFE6DE;
+   background-color:#EBF2EA;
+   color:#FF0000;
+}
+
+.day-with-date {
+   vertical-align:text-top;
+   text-align:left;
+   width:60px;
+   height:60px;
+   border:1px solid #DFE6DE;
+}
+
+.no-events {
+}
+
+.day-without-date {
+   width:60px;
+   height:60px;
+   border:1px solid #E9F0E8;
+}
+
+span.weekend {
+   color:#FF0000;
+}
+
+.current-day {
+   vertical-align:text-top;
+   text-align:left;
+   width:60px;
+   height:60px;
+   border:1px solid #BFBFBF;
+   background-color:#E4EBE3;
+}
+
+span.event {
+   font-size:0.75em;
+}
+
+.kjo-link {
+   font-size:0.75em;
+   text-align:center;
+}
+
+.event-title {
+   text-align:center;
+   font-weight:bold;
+   font-size:1.2em;
+}
+
+.event-title-break {
+   width:96%;
+   margin-left:2%;
+   margin-right:2%;
+   margin-top:5px;
+   margin-bottom:5px;
+   text-align:center;
+   height:1px;
+   background-color:#000000;
+}
+
+.event-content-break {
+   width:96%;
+   margin-left:2%;
+   margin-right:2%;
+   margin-top:5px;
+   margin-bottom:5px;
+   text-align:center;
+   height:1px;
+   background-color:#000000;
+}
+
+.calendar-date-switcher {
+   height:25px;
+   text-align:center;
+   border:1px solid #D6DED5;
+   background-color:#E4EBE3;
+}
+
+.calendar-date-switcher form {
+   margin:0;
+   padding:0;
+}
+
+.calendar-date-switcher input {
+   border:1px #D6DED5 solid;
+}
+
+.calendar-date-switcher select {
+   border:1px #D6DED5 solid;
+}
+
+.cat-key {
+   width:100%;
+   margin-top:10px;
+   padding:5px;
+   border:1px solid #D6DED5;
+}
