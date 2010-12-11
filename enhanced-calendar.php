@@ -6,7 +6,7 @@
  * Description: This plugin enhances <a href="http://www.kieranoshea.com">Kieran O'Shea's</a> <a href="http://wordpress.org/extend/plugins/calendar/">Calendar plugin</a>.
  * Author: Mike Walsh
  * Author URI: http://www.michaelwalsh.org
- * Version: 0.0.4
+ * Version: 0.0.6
  */
 
 /*

@@ -150,6 +150,9 @@ padding: 0.3em 0em;
 = 0.0.5 =
 * More ReadMe.txt content and cleanup.
 
+= 0.0.6 =
+* Yet more ReadMe.txt content and cleanup.
+
 == Upgrade Notice ==
 
 No specical upgrade instructions at this time.
