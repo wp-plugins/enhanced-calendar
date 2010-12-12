@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: calendar
 Requires at least: 2.9
 Tested up to: 3.0.3
-Stable tag: 0.0.6
+Stable tag: 0.0.7
 
 Enhancements to Kieran O'Shea's Calendar plugin to allow multiple uses, theme styling, and more.
 
@@ -152,6 +152,9 @@ padding: 0.3em 0em;
 
 = 0.0.6 =
 * Yet more ReadMe.txt content and cleanup.
+
+= 0.0.7 =
+* Fixed CSS issues introduced by renaming plugin.
 
 == Upgrade Notice ==
 

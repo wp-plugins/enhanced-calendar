@@ -6,7 +6,7 @@
  * Description: This plugin enhances <a href="http://www.kieranoshea.com">Kieran O'Shea's</a> <a href="http://wordpress.org/extend/plugins/calendar/">Calendar plugin</a>.
  * Author: Mike Walsh
  * Author URI: http://www.michaelwalsh.org
- * Version: 0.0.6
+ * Version: 0.0.7
  */
 
 /*
@@ -340,8 +340,8 @@ add_shortcode('calendar', 'enahnced_calendar_sc_handler');
 function enahnced_calendar_wp_print_scripts()
 {
     //  Load Calendar-Plus Javascript code
-    $script = plugins_url(plugin_basename(dirname(__FILE__))) . "/calendar-plus.js";
-    wp_enqueue_script('calendar-plus', $script, array('jquery')) ;
+    $script = plugins_url(plugin_basename(dirname(__FILE__))) . "/enhanced-calendar.js";
+    wp_enqueue_script('enhanced-calendar', $script, array('jquery')) ;
 }
 
 //Not being used right now - commented out
@@ -359,9 +359,9 @@ function enahnced_calendar_wp_print_styles()
     //  Load CSS file
 
     $css = plugins_url(plugin_basename(dirname(__FILE__))) .
-        "/calendar-plus.css";
-    wp_register_style("calendar-plus-style", $css, false) ;
-    wp_enqueue_style("calendar-plus-style") ;
+        "/enhanced-calendar.css";
+    wp_register_style("enhanced-calendar-style", $css, false) ;
+    wp_enqueue_style("enhanced-calendar-style") ;
 }
 
 add_action('wp_print_styles', 'enahnced_calendar_wp_print_styles') ;
